@@ -14,6 +14,12 @@ b1{
       
 }
 
+.rounded{
+  border: 3px solid #000000;
+  border-radius: 10px;
+
+}
+
 
 b2{
   color: rgb(73, 44, 236);
@@ -78,9 +84,6 @@ p2{
 }
 
 
-#cudi {
-  padding-left:50px;
-}
 
 .image {
   width:60px;
@@ -90,11 +93,29 @@ p2{
 } 
 
 
+.bars{
+  float: center;
+  
 
-.shinji {
-  height: 250px;
-  width: auto;
 }
+
+
+.container{
+  background-color: blue;
+  width: 33%;
+  border-radius: 15px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin: 25px;
+  position: relative;
+  height: 200px;
+  justify-content: right;
+  float: left;
+  border: 3px solid #000000;
+font-family: Courier New, Arial, sans-serif;
+}
+
 
 
 .videoTemplate iframe{
@@ -117,14 +138,14 @@ p2{
 }  
 
 .MyExp{
-  justify-content: center;
+  justify-content: left;
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
   width: 30%;
-  padding: 250px;
-
+  padding: 250px 250px 0px 250px;
 }
+
 
 .Projects{
   margin-top: 8.5px;
