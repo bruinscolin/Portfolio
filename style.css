@@ -5,6 +5,11 @@ header h1{
 border-bottom: 4mm ridge rgba(246, 74, 114, 0.6);
 
 }
+header{
+  width: 100%;
+
+}
+
 
 b1{
   color: rgb(73, 44, 236);
@@ -102,6 +107,7 @@ p2{
 
 .container{
   background-color: blue;
+
   width: 33%;
   border-radius: 15px;
   font-size: 45px;
